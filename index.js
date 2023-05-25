@@ -14,9 +14,9 @@ const { app, webContents } = electron || electron.remote;
  * External
  * @constant
  */
-const isDebug = require('@sidneys/is-env')('debug');
-const isLivereload = require('@sidneys/is-env')('livereload');
-const logger = require('@sidneys/logger')({ write: true });
+const isDebug = require('@bengennaria/is-env')('debug');
+const isLivereload = require('@bengennaria/is-env')('livereload');
+const logger = require('@bengennaria/logger')({ write: true });
 /* eslint-disable no-unused-vars */
 const filesize = require('filesize');
 const tryRequire = require('try-require');
