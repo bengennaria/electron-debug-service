@@ -31,8 +31,8 @@
     "tools"
   ],
   "dependencies": {
-    "@bengennaria/is-env": "git+https://bengennaria@github.com/bengennaria/is-env.git",
-    "@bengennaria/logger": "git+https://bengennaria@github.com/bengennaria/logger.git",
+    "@bengennaria/is-env": "github:bengennaria/is-env",
+    "@bengennaria/logger": "github:bengennaria/logger",
     "filesize": "^6.1.0",
     "try-require": "^1.2.1"
   },
